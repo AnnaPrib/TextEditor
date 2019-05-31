@@ -1,0 +1,11 @@
+<idea-plugin>
+    <id>my-plugin</id>
+    <name>Text Editor</name>
+    <vendor></vendor>
+    <extensions defaultExtensionNs="com.intellij"></extensions>
+    <application-components>
+        <component>
+            <implementation-class>TextEditorPlugin</implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>
